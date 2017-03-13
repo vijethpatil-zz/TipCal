@@ -29,7 +29,7 @@ class SettingsViewController: UIViewController {
     
 
     @IBAction func sliderValueChanged(_ sender: Any) {
-        var currentValue = Int(tipSlider.value)
+        let currentValue = Int(tipSlider.value)
         defaultTipLabel.text = "\(currentValue)%"
         
         let defaults = UserDefaults.standard
