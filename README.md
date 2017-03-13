@@ -27,14 +27,15 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/vijethpatil/TipCal/blob/master/TipCal%20Demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
 Describe any challenges encountered while building the app.
-- Learnt about changing the background color of text for UITextField and the User Defined Runtime attributes 
+- Learnt about changing the background color of text for UITextField and the User Defined Runtime attributes
+- Had tough time synchronizing the data on the main view when i come back from settings view, figured out about viewWillAppear() etc methods.
 
 
 ## License
