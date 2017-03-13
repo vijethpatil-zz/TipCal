@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		738525A81E767F8B00481625 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738525A71E767F8B00481625 /* SettingsViewController.swift */; };
 		73BBC9EC1E6DBE0F0074A1A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BBC9EB1E6DBE0F0074A1A1 /* AppDelegate.swift */; };
 		73BBC9EE1E6DBE0F0074A1A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BBC9ED1E6DBE0F0074A1A1 /* ViewController.swift */; };
 		73BBC9F11E6DBE0F0074A1A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73BBC9EF1E6DBE0F0074A1A1 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		738525A71E767F8B00481625 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		73BBC9E81E6DBE0E0074A1A1 /* TipCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73BBC9EB1E6DBE0F0074A1A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73BBC9ED1E6DBE0F0074A1A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		73BBC9DF1E6DBE0E0074A1A1 = {
 			isa = PBXGroup;
 			children = (
+				738525A71E767F8B00481625 /* SettingsViewController.swift */,
 				73BBC9EA1E6DBE0E0074A1A1 /* TipCal */,
 				73BBC9FF1E6DBE0F0074A1A1 /* TipCalTests */,
 				73BBCA0A1E6DBE0F0074A1A1 /* TipCalUITests */,
@@ -261,6 +264,7 @@
 			files = (
 				73BBC9EE1E6DBE0F0074A1A1 /* ViewController.swift in Sources */,
 				73BBC9EC1E6DBE0F0074A1A1 /* AppDelegate.swift in Sources */,
+				738525A81E767F8B00481625 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +507,7 @@
 				73BBCA121E6DBE0F0074A1A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73BBCA131E6DBE0F0074A1A1 /* Build configuration list for PBXNativeTarget "TipCalTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				73BBCA151E6DBE0F0074A1A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73BBCA161E6DBE0F0074A1A1 /* Build configuration list for PBXNativeTarget "TipCalUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				73BBCA181E6DBE0F0074A1A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
